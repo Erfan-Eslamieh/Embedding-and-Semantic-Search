@@ -117,3 +117,21 @@ results = vector_store.similarity_search("your query", k=2, filter={"source": "s
 
 ✔ End-to-end pipeline for hybrid semantic search systems
 
+
+### 📄 Sample Documents
+
+To reproduce the experiments exactly as shown in the notebooks, please download the following files from this repository:
+
+- attention.pdf
+
+- Cognitive computational neuroscience.pdf
+
+- Cognitive Neuroscience.pdf
+
+- Proposal_erfan_english.docx
+
+These documents are used as example inputs for demonstrating document loading, chunking, embedding generation, and metadata-based vector search.
+
+Note:
+You may freely replace these files with your own documents. The pipeline is domain-agnostic and will work with any PDF or DOCX files following the same structure.
+
